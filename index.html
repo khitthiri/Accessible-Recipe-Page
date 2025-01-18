@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Displays site properly on any device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Omurice Recipe</title>
+</head>
+<body>
+    <nav role="navigation" class="menu-bar" aria-label="Main navigation">
+        <input type="checkbox" id="menuToggle" class="menu-toggle" aria-hidden="true" />
+        <label for="menuToggle" id="menuButton" tabindex="0" aria-hidden="true">
+        </label>
+        <ul>
+          <li><a href="#prep-heading">Preparation</a></li>
+          <li><a href="#ingredients-heading">Ingredients</a></li>
+          <li><a href="#instructions-heading">Instructions</a></li>
+          <li><a href="#nutrition-heading">Nutrition</a></li>
+        </ul>
+      </nav>
+      
+  <div class="main-container">
+    <header role="banner">
+      <img src="Images/Omurice.jpg" alt="Image of the Omurice dish" class="header-image">
+      <h1>Omurice Recipe</h1>
+      <h2>An irresistible combination of fried rice wrapped in a silky omelet, topped with ketchup. A Japanese favorite!</h2>
+    </header>
+
+    <main role="main">
+      <section class="preparation" aria-labelledby="prep-heading">
+        <h3 id="prep-heading">Preparation Time</h3>
+        <ul>
+          <li><strong>Total:</strong> 30 minutes</li>
+          <li><strong>Preparation:</strong> 10 minutes</li>
+          <li><strong>Cooking:</strong> 20 minutes</li>
+        </ul>
+      </section>
+
+      <section class="ingredients" aria-labelledby="ingredients-heading">
+        <h3 id="ingredients-heading">Ingredients</h3>
+        <ul>
+          <li>1 cup cooked rice</li>
+          <li>2 large eggs</li>
+          <li>1/4 cup diced chicken</li>
+          <li>1/4 cup diced onions</li>
+          <li>1 tbsp ketchup (plus more for garnish)</li>
+          <li>1 tbsp soy sauce</li>
+          <li>1 tbsp cooking oil</li>
+          <li>Salt and pepper to taste</li>
+        </ul>
+      </section>
+
+      <section class="instructions" aria-labelledby="instructions-heading">
+        <h3 id="instructions-heading">Instructions</h3>
+        <ol>
+          <li><strong>Sauté the fillings:</strong> Heat oil in a pan, sauté diced chicken and onions until golden brown.</li>
+          <li><strong>Add rice and seasoning:</strong> Add cooked rice, ketchup, and soy sauce. Stir-fry for 2-3 minutes. Season with salt and pepper. Set aside.</li>
+          <li><strong>Cook the omelet:</strong> Beat eggs with a pinch of salt. Heat a non-stick pan and pour in the eggs, tilting the pan to cover the surface evenly.</li>
+          <li><strong>Wrap the rice:</strong> Place the fried rice on one half of the omelet, then carefully fold the other half over the rice.</li>
+          <li><strong>Serve:</strong> Slide the Omurice onto a plate. Garnish with ketchup and serve warm.</li>
+        </ol>
+      </section>
+
+      <section class="nutrition" aria-labelledby="nutrition-heading">
+        <h3 id="nutrition-heading">Nutritional Information</h3>
+        <table class="nutrition-table" role="table">
+          <caption>Nutritional values per serving</caption>
+          <thead>
+            <tr>
+              <th scope="col">Nutrient</th>
+              <th scope="col">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Calories</td>
+              <td>450 kcal</td>
+            </tr>
+            <tr>
+              <td>Protein</td>
+              <td>18 g</td>
+            </tr>
+            <tr>
+              <td>Fat</td>
+              <td>14 g</td>
+            </tr>
+            <tr>
+              <td>Carbs</td>
+              <td>60 g</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <p>Coded by <a href="#">Khit</a>.</p>
+    </footer>
+  </div>
+</body>
+</html>
